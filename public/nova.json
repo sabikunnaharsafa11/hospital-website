@@ -1,59 +1,66 @@
 [
     {
-        "name": "Adobe Illustrator",
-        "price": "4000",
-        "coursetime": "6month",
-        "img": "https://dls1.gfxplugin.ir/Download_Files/224/ProBanner/banner.png"
-    },
-    {
-        "name": "Adobe Photoshop",
-        "price": "4000",
-        "coursetime": "6month",
-        "img": "https://i.ytimg.com/vi/N24fIAwkchk/maxresdefault.jpg"  
-    },
-    {
-        "name": "Web Design",
-        "price": "4500",
-        "coursetime": "6month",
-        "img": "https://cdn.mos.cms.futurecdn.net/CT9xCjqrhnPD4ivB6B8Hqe.jpg"
+        "name": "Dr Arif Ahmmed",
+        "title": "Neuro Medicine",
+        "paragrap": "Hospital services is a term that refers to medical and surgical services and the supporting laboratories",
         
+        "img": "https://www.pngkey.com/png/detail/24-248941_doctors-and-nurses-png-image-de-doctor.png"
     },
     {
-        "name": "Graphic Design",
-        "price": "4000",
-        "coursetime": "6month",
-        "img": "https://www.freepik.com/blog/app/uploads/2016/12/An-Introduction-To-Graphic-Design-Part-1.jpg"   
-     
+        "name": " Dr Rakib Hosen",
+        "title": "Neuro Surgery",
+        "paragrap": "Hospital services is a term that refers to medical and surgical services and the supporting laboratories",
+        
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBi_Nythzix4DC9SXN3uSuFXUDkt_G3RDUkw&usqp=CAU" 
     },
     {
-        "name": "UI/UX Design",
-        "price": "5000",
-        "coursetime":"6month",
-        "img": "https://qph.fs.quoracdn.net/main-qimg-f6dee1b5714fceb98873e76c0a437387"
+        "name": "Dr Tapushi Nilu",
+        "title": "Neuro Medicine",
+        "paragrap": "Hospital services is a term that refers to medical and surgical services and the supporting laboratories",
+        
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4gYf2GUJs2IdInFgutjDLyBblDPmrnnLkEZ4wzFIYlQRAObDYWyPW7rQupGshAv9ie3E&usqp=CAU" 
     },
     {
-        "name": "Front End Design",
-        "price": "4500",
-        "coursetime":"6month",
-        "img": "https://res.cloudinary.com/practicaldev/image/fetch/s--Qbq056cU--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/3dso9dv9loxkft0cee4c.jpg"  
+        "name": " Dr Sathi Islam",
+        "title": "Paediatric Surgery",
+        "paragrap": "Hospital services is a term that refers to medical and surgical services and the supporting laboratories",
+        
+        "img": "https://cdn.crello.com/api/media/small/337852218/stock-photo-beautiful-doctor-stethoscope-smiling-camera" 
     },
     {
-        "name": "Adobe Sketch",
-        "price": "400",
-        "coursetime": "6month",
-        "img": "https://helpx.adobe.com/content/dam/help/en/mobile-apps/how-to/digital-painting-drawing-photoshop-sketch/jcr_content/main-pars/image_1103424972/digital-painting-drawing-photoshop-sketch-v2_1000x560.jpg"   
+        "name": "Dr Mariom Akter",
+        "title": "Pain Management",
+        "paragrap": "Hospital services is a term that refers to medical and surgical services and the supporting laboratories",
+        
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTymF-BBjksYdi9YI6CDPiIFPxeiuuoo7S-OER_ANkURKAYekf4Xp5IiO3D7OUl5yfZ9vw&usqp=CAU" 
     },
     {
-        "name": " Digital Markting",
-        "price": "400",
-        "coursetime":"6month",
-        "img": "https://www.simplilearn.com/ice9/webinar_thum_image/Digital_Marketing_Tutorial.jpg"    
+        "name": "Dr Mamun Hosen",
+        "title": "Physical Medicine",
+        "paragrap": "Hospital services is a term that refers to medical and surgical services and the supporting laboratories",
+        
+        "img": "https://static.facegfx.com/2012/hd-doctor-pictures-download_963292626.jpg" 
     },
     {
-        "name": "Database course",
-        "price": "4500",
-        "coursetime": "6month",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJIzyVb24sKX3xYIURhaqHjAK12ildOgWrUiCYjqLnCLIrxsx5YNWBgeBCii0CKadqT2I&usqp=CAU"
+        "name": "Dr Nazmim Shimu",
+        "title": "Surgery",
+        "paragrap": "Hospital services is a term that refers to medical and surgical services and the supporting laboratories",
+        
+        "img": "https://www.seekpng.com/png/detail/32-324179_lady-doctor-png-lady-doctor-images-png.png" 
+    },
+    {
+        "name": "Dr Tanisha Tasnin",
+        "title": "Anti Aging",
+        "paragrap": "Hospital services is a term that refers to medical and surgical services and the supporting laboratories",
+        
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVryoeg17PTPZWKe1clYePm2xfA8i_nZkT849vE33UPd0O7XTA4t1H_pfBjNmlvwv0B4w&usqp=CAU"   
+    },
+    {
+        "name": "",
+        "title": "Cosmetic",
+        "paragrap": "Hospital services is a term that refers to medical and surgical services and the supporting laboratories",
+        
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLedTyJAf_U1f1LSisGWANnyQc0IuoZL8XobvLRocsnUyHJVIjsXKWma4kOyhYvM8Y1b8&usqp=CAU" 
     }
     
 ]
