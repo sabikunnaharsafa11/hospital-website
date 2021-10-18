@@ -1,0 +1,59 @@
+[
+    {
+        "name": "Adobe Illustrator",
+        "price": "4000",
+        "coursetime": "6month",
+        "img": "https://dls1.gfxplugin.ir/Download_Files/224/ProBanner/banner.png"
+    },
+    {
+        "name": "Adobe Photoshop",
+        "price": "4000",
+        "coursetime": "6month",
+        "img": "https://i.ytimg.com/vi/N24fIAwkchk/maxresdefault.jpg"  
+    },
+    {
+        "name": "Web Design",
+        "price": "4500",
+        "coursetime": "6month",
+        "img": "https://cdn.mos.cms.futurecdn.net/CT9xCjqrhnPD4ivB6B8Hqe.jpg"
+        
+    },
+    {
+        "name": "Graphic Design",
+        "price": "4000",
+        "coursetime": "6month",
+        "img": "https://www.freepik.com/blog/app/uploads/2016/12/An-Introduction-To-Graphic-Design-Part-1.jpg"   
+     
+    },
+    {
+        "name": "UI/UX Design",
+        "price": "5000",
+        "coursetime":"6month",
+        "img": "https://qph.fs.quoracdn.net/main-qimg-f6dee1b5714fceb98873e76c0a437387"
+    },
+    {
+        "name": "Front End Design",
+        "price": "4500",
+        "coursetime":"6month",
+        "img": "https://res.cloudinary.com/practicaldev/image/fetch/s--Qbq056cU--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/3dso9dv9loxkft0cee4c.jpg"  
+    },
+    {
+        "name": "Adobe Sketch",
+        "price": "400",
+        "coursetime": "6month",
+        "img": "https://helpx.adobe.com/content/dam/help/en/mobile-apps/how-to/digital-painting-drawing-photoshop-sketch/jcr_content/main-pars/image_1103424972/digital-painting-drawing-photoshop-sketch-v2_1000x560.jpg"   
+    },
+    {
+        "name": " Digital Markting",
+        "price": "400",
+        "coursetime":"6month",
+        "img": "https://www.simplilearn.com/ice9/webinar_thum_image/Digital_Marketing_Tutorial.jpg"    
+    },
+    {
+        "name": "Database course",
+        "price": "4500",
+        "coursetime": "6month",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJIzyVb24sKX3xYIURhaqHjAK12ildOgWrUiCYjqLnCLIrxsx5YNWBgeBCii0CKadqT2I&usqp=CAU"
+    }
+    
+]
