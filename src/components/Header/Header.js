@@ -43,7 +43,7 @@ const Header = () => {
                     textDecoration: 'underline'
                   }} className="nav-link" >About</NavLink>     
                   
-                  { user.email && <span style={{color:'black'}}> {user.displayName} </span>}
+                  { user.email && <span style={{color:'black'}}> Hey {user.displayName} </span>}
        
                     {
                         user.email ? 

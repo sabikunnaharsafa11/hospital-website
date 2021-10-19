@@ -8,8 +8,9 @@ import About from './components/About/About';
 import Footer from './components/Footer/Footer';
 import Error from './components/Error/Error';
 import Login from './components/Login/Login';
-import Register from './components/Register/Register';
 import AuthProvider from './context/AuthProvider';
+import Details from './components/Details/Details';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 
 
@@ -38,9 +39,9 @@ function App() {
           <Route exact path="/login">
           <Login></Login>
           </Route>
-          <Route exact path="/register">
-          <Register></Register>
-          </Route>
+          <PrivateRoute exact path="/details">
+             <Details></Details>
+          </PrivateRoute>
           <Route exact path="*">  
           <Error></Error>       
           </Route>
