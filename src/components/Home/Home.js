@@ -30,7 +30,7 @@ const Home = () => {
             </div> 
                  
             </div> 
-            <button> view</button>
+            
           </div>
           <About></About>
   

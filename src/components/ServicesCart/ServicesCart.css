@@ -12,5 +12,11 @@
 
 .btn1{
     width: 40%;
-    border-radius:    5px 5px;
+    border-radius: 5px 5px;
+  
+}
+
+.btn2{
+    text-decoration: none;
+    color: white;
 }

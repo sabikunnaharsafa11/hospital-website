@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useLocation} from 'react-router-dom';
+import { useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword,  updateProfile } from "firebase/auth";
 
@@ -7,8 +7,8 @@ import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword,  u
 const Login = () => {
    const { singInUsingGoogle} = useAuth();
    const location = useLocation();
-    console.log( 'came from', location.state?.form);
-
+   const history = useHistory();
+   const redirect_url = location.state?.form || '/home';  
    const [name, setName] = useState('')
    const [email, setEmail] = useState('')
    const [password, setPassword] = useState('')
@@ -31,6 +31,14 @@ const Login = () => {
   const handlePasswordChange = e =>{
     setPassword(e.target.value);
   }
+
+  const handleGoogleLogin = ()=>{
+     singInUsingGoogle()
+     .then(result => {
+           history.push(redirect_url);
+     })
+  }
+
       
   const handleRegistration = e =>{
     e.preventDefault();
@@ -115,7 +123,7 @@ const Login = () => {
  </form>
        <div>---------------------------</div>
                <boutton 
-               onClick={singInUsingGoogle}
+               onClick={handleGoogleLogin}
                className="btn btn-warning mt-2"
                >Google Sing In</boutton>
 

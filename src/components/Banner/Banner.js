@@ -32,7 +32,7 @@ const Banner = () => {
                       <div className="row ">
                           <div className="col-md-6">
                            <div className="banner-heading">
-                           <h1><span>Making Health Easier</span> <br /> So Life Can be Better.</h1>
+                           <h2><span>Making Health Easier</span> <br /> So Life Can be Better.</h2>
                             <p>We come through for you whether you’re in the hospital, on our mobile web site, in a Banner clinic, on the phone or helping you use your health plan to the fullest..</p>
                             <a class="btn btn-dark" href="/" role="button">EXPLORE NOW!</a>
                            </div>
@@ -43,11 +43,12 @@ const Banner = () => {
                           </div>
                       </div>
                     </div>
+                   
                     <div class=" carousel-item">
                     <div className="row">
                           <div className="col-md-6">
                           <div className="banner-heading">
-                           <h1><span>Making Health Easier</span> <br /> So Life Can be Better.</h1>
+                           <h2><span>Making Health Easier</span> <br /> So Life Can be Better.</h2>
                             <p>We come through for you whether you’re in the hospital, on our mobile web site, in a Banner clinic, on the phone or helping you use your health plan to the fullest..</p>
                             <a class="btn btn-dark" href="/" role="button">VIEW COLLECTION</a>
                            </div>
@@ -62,7 +63,7 @@ const Banner = () => {
                     <div className="row">
                           <div className="col-md-6">
                           <div className="banner-heading">
-                          <h1><span>Making Health Easier</span> <br /> So Life Can be Better.</h1>
+                          <h2><span>Making Health Easier</span> <br /> So Life Can be Better.</h2>
                             <p>We come through for you whether you’re in the hospital, on our mobile web site, in a Banner clinic, on the phone or helping you use your health plan to the fullest..</p>
                             <a class="btn btn-dark" href="/" role="button">VIEW COLLECTION</a>
                            </div>
