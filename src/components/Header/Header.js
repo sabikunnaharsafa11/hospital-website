@@ -1,7 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
-import useFirebase from '../../hooks/useFirebase';
 import logo from './../../images/download.png'
 import './Header.css'
 
@@ -29,13 +28,7 @@ const Header = () => {
                     fontWeight: "bold",
                     color: "red",
                     textDecoration: 'underline'
-                  }} className="nav-link">Services</NavLink> 
-                   <NavLink to="/team"  activeClassName="team"
-                activeStyle={{
-                    fontWeight: "bold",
-                    color: "red",
-                    textDecoration: 'underline'
-                  }} className="nav-link">Team</NavLink>                                        
+                  }} className="nav-link">Services</NavLink>                                                         
                   <NavLink to="/about"  activeClassName=""
                 activeStyle={{
                     fontWeight: "bold",

@@ -1,22 +1,22 @@
 import React, { useState } from 'react';
-import { useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword,  updateProfile } from "firebase/auth";
+import { useHistory, useLocation } from 'react-router';
 
 
 const Login = () => {
-   const { singInUsingGoogle} = useAuth();
-   const location = useLocation();
-   const history = useHistory();
-   const redirect_url = location.state?.form || '/home';  
+  const{user, setUser, error, setError} = useAuth();
+   const { singInUsingGoogle} = useAuth();  
    const [name, setName] = useState('')
    const [email, setEmail] = useState('')
    const [password, setPassword] = useState('')
-   const [error, setError] = useState('');
+   
    const [isLogin, setIsLogin] = useState(false);
+   const location = useLocation();
+   const history = useHistory();
+   const redirect_uri = location.state?.form || '/home'; 
 
   const auth = getAuth();
-
   const toggleLogin = e =>{
     setIsLogin(e.target.checked);
   }
@@ -31,15 +31,7 @@ const Login = () => {
   const handlePasswordChange = e =>{
     setPassword(e.target.value);
   }
-
-  const handleGoogleLogin = ()=>{
-     singInUsingGoogle()
-     .then(result => {
-           history.push(redirect_url);
-     })
-  }
-
-      
+    
   const handleRegistration = e =>{
     e.preventDefault();
     console.log(email, password);
@@ -62,6 +54,7 @@ const Login = () => {
     .then(result => {
       const user = result.user;
       console.log(user);
+      history.push(redirect_uri)
       setError('');
     })
     .catch(error => {
@@ -77,6 +70,7 @@ const Login = () => {
     createUserWithEmailAndPassword(auth, email, password)
     .then(result => {
       const user = result.user;
+     setUser('');
       console.log(user)
       setError('');
       setUserName('')
@@ -84,8 +78,8 @@ const Login = () => {
   }
     return (
     
-    <div className=" container ">
-    <div className="mx-5 mt-5 mb-5 shadow p-3 mb-5 bg-body rounded  w-50">
+    <div className=" container d-flex justify-content-center ">
+    <div className="mx-5 mt-5 mb-5 shadow p-3 mb-5 bg-body rounded w-50">
      <h2 className="btn btn-primary">Please {isLogin ? 'Login': 'Registor'}</h2>
 
        { !isLogin &&<div className="row mb-3">
@@ -119,11 +113,11 @@ const Login = () => {
     </div>
   </div>
   <div className="row  text-danger">{error}</div>
-  <button type="submit" className="btn btn-primary">{isLogin ? 'Login' : 'Register'}</button>
+  <button type="submit" className="btn btn-primary">{ isLogin ? 'Login' : 'Register'}</button>
  </form>
        <div>---------------------------</div>
                <boutton 
-               onClick={handleGoogleLogin}
+               onClick={singInUsingGoogle}
                className="btn btn-warning mt-2"
                >Google Sing In</boutton>
 

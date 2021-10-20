@@ -16,9 +16,9 @@ const Details = () => {
     return (
        <>
        {selected.map(service => (
-           <div className="container mt-5 mb-5">
-            <div className="row col-md-6 d-flex justify-content-center">
-            <div class="card w-50% h-50%">
+           <div className="container d-flex justify-content-center mt-5 mb-5">
+            <div className="row col-md-6 ">
+            <div class="card w-20% h-20%">
             <img src={service.img} class="card-img-top" alt="..." />
             <h2>{service.name}</h2>
             <h4>{service.title}</h4>
