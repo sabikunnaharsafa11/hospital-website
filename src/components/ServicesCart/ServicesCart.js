@@ -16,7 +16,7 @@ const ServicesCart = (props) => {
          <h5>{title}</h5>
         <p className="fw-normal text-start "> {paragrap}</p>
          <div className="mb-4">
-         <button type="button" class=" btn btn-dark btn1 "><Link className="btn2" to={`/details/${id}`}>Details</Link></button>
+         <button type="button" class=" btn btn-dark btn1 "><Link className="btn2" to={`/details/${id}`}>Read More</Link></button>
       </div>      
          </div>
       </div>      

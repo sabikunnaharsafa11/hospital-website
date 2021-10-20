@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
+import useAuth from '../../hooks/useAuth';
 
 const Details = () => {
+  const { user } = useAuth();
     const {serviceId} =useParams();
     const[service,setService]= useState() ;
  

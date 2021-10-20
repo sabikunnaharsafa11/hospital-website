@@ -20,70 +20,70 @@ const Banner = () => {
     }
     return (
         <div style={bannerStyle}>
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+                <div className="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                <div class="carousel-inner">
+                <div className="carousel-inner">
                     <div className='container-fluid'>
-                    <div class=" carousel-item active">
+                    <div className=" carousel-item active">
                       <div className="row ">
                           <div className="col-md-6">
-                           <div className="banner-heading">
+                           <div className="banner-heading " >
                            <h2><span>Making Health Easier</span> <br /> So Life Can be Better.</h2>
                             <p>We come through for you whether you’re in the hospital, on our mobile web site, in a Banner clinic, on the phone or helping you use your health plan to the fullest..</p>
-                            <a class="btn btn-dark" href="/" role="button">EXPLORE NOW!</a>
+                            <a className="btn btn-dark mt-5" href="/" role="button">EXPLORE NOW!</a>
                            </div>
                    
                           </div>
                           <div className="col-md-6">
-                          <img src={banner1} class="d-block slider-img" alt="..." />
+                          <img src={banner1} className="d-block slider-img" alt="..." />
                           </div>
                       </div>
                     </div>
                    
-                    <div class=" carousel-item">
+                    <div className=" carousel-item">
                     <div className="row">
                           <div className="col-md-6">
                           <div className="banner-heading">
                            <h2><span>Making Health Easier</span> <br /> So Life Can be Better.</h2>
                             <p>We come through for you whether you’re in the hospital, on our mobile web site, in a Banner clinic, on the phone or helping you use your health plan to the fullest..</p>
-                            <a class="btn btn-dark" href="/" role="button">VIEW COLLECTION</a>
+                            <a className="btn btn-dark mt-5" href="/" role="button">VIEW COLLECTION</a>
                            </div>
                    
                           </div>
                           <div className="col-md-6">
-                          <img src={banner2} class="d-block slider-img" alt="..." />
+                          <img src={banner2} className="d-block slider-img" alt="..." />
                           </div>
                       </div>
                     </div>
-                    <div class=" carousel-item">
+                    <div className=" carousel-item">
                     <div className="row">
                           <div className="col-md-6">
-                          <div className="banner-heading">
+                          <div className="banner-heading ">
                           <h2><span>Making Health Easier</span> <br /> So Life Can be Better.</h2>
                             <p>We come through for you whether you’re in the hospital, on our mobile web site, in a Banner clinic, on the phone or helping you use your health plan to the fullest..</p>
-                            <a class="btn btn-dark" href="/" role="button">VIEW COLLECTION</a>
+                            <a className="btn btn-dark mt-5" href="/" role="button">VIEW COLLECTION</a>
                            </div>
                    
                           </div>
                           <div className="col-md-6">
-                          <img src={banner3} class="d-block slider-img" alt="..." />
+                          <img src={banner3} className="d-block slider-img" alt="..." />
                           </div>
                       </div>
                     </div>
                  
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
+                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Next</span>
                 </button>
             </div>
            

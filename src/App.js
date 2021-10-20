@@ -30,17 +30,15 @@ function App() {
           <Route exact path="/home">
            <Home></Home>
           </Route>
-          <Route exact path="/services">
+          <PrivateRoute exact path="/services">
           <Services></Services>
-          </Route>
-          <PrivateRoute exact path="/about">
+          </PrivateRoute>
+          <Route exact path="/about">
           <About></About>
-          </PrivateRoute>   
+          </Route>  
           <Route exact path="/login">
           <Login></Login>
-          </Route>
-         
-          
+          </Route>        
           <Route path="*">  
           <Error></Error>       
           </Route>

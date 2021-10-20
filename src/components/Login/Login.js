@@ -14,7 +14,7 @@ const Login = () => {
    const [isLogin, setIsLogin] = useState(false);
    const location = useLocation();
    const history = useHistory();
-   const redirect_uri = location.state?.form || '/home'; 
+   const redirect_uri = location.state?.from || '/home'; 
 
   const auth = getAuth();
   const toggleLogin = e =>{
@@ -55,11 +55,13 @@ const Login = () => {
       const user = result.user;
       console.log(user);
       history.push(redirect_uri)
+      console.log(redirect_uri)
       setError('');
     })
     .catch(error => {
       setError(error.message);
     })
+    history.push(redirect_uri)
   }
 
   const setUserName = () =>{

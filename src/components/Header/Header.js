@@ -28,7 +28,9 @@ const Header = () => {
                     fontWeight: "bold",
                     color: "red",
                     textDecoration: 'underline'
-                  }} className="nav-link">Services</NavLink>                                                         
+                  }} className="nav-link">Services</NavLink> 
+                   
+
                   <NavLink to="/about"  activeClassName=""
                 activeStyle={{
                     fontWeight: "bold",
